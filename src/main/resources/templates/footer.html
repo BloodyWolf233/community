@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!-- 尾部 -->
+<footer class="bg-dark" th:fragment="footer">
+    <div class="container">
+        <div class="row">
+            <!-- 二维码 -->
+            <div class="col-4 qrcode">
+                <img th:src="@{/img/qrcode.png}" class="img-thumbnail" style="width:136px;" />
+            </div>
+            <!-- 公司信息 -->
+            <div class="col-8 detail-info">
+                <div class="row">
+                    <div class="col">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">关于我们</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">加入我们</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">意见反馈</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">联系我们</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">免责声明</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">友情链接</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="nav btn-group-vertical company-info">
+                            <li class="nav-item text-white-50">
+                                实验室地址：四川省成都市电子科技大学清水河校区-创新中心D319
+                            </li>
+                            <li class="nav-item text-white-50">
+                                联系方式：028-xxxxxxxx(电话)&nbsp;&nbsp;&nbsp;&nbsp;xxx@std.uestc.edu.cn
+                            </li>
+                            <li class="nav-item text-white-50">
+                                NSTL©2018 All rights reserved
+                            </li>
+                            <li class="nav-item text-white-50" hidden="hidden">
+                                京ICP备*****号-* &nbsp;&nbsp;&nbsp;&nbsp;
+                                <img th:src="@{/img/ga.png}" style="width:18px;" />
+                                京公网安备 *****号
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
