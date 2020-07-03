@@ -13,7 +13,7 @@
 
 
 
-![image-20200703155440620](\doc\img\image-20200703155440620.png)
+![image-20200703155440620](/doc/img/image-20200703155440620.png)
 
 - Spring (https://spring.io/)
 - Redis (https://redis.io/)
